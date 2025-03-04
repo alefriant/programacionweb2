@@ -1,0 +1,70 @@
+#filtro-avanzado-container h3 {
+    text-align: center;
+}
+
+.filtro-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.filtro-form .form-group {
+    margin-bottom: 15px;
+}
+
+.filtro-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.filtro-form input[type="text"],
+.filtro-form input[type="date"],
+.filtro-form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.filtro-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filtro-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.resultados-busqueda {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.resultados-busqueda ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resultados-busqueda li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.resultados-busqueda p {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
